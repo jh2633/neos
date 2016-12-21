@@ -14,12 +14,15 @@ Features implemented
 OOP Models
 item
   - price
+  - name
 basket
   - items
   - total price
 promotions
   - discount basket price
   - conjunction/not in conjunction
+  - quantity promotion
+
 User
   - email
   - Address
