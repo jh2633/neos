@@ -1,6 +1,6 @@
-require './app/models/basket'
+require './app/models/promotion'
 
-describe Basket do
+describe Promotion do
 
   subject(:item_1) {described_class.new(5, "web cam")}
   subject(:item_2) {described_class.new(10, "violin")}
