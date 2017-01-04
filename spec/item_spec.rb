@@ -12,7 +12,7 @@ describe Item do
 
   it 'can be created with a name' do
     expect(item_1.name).to eq "web cam"
-    expect(item_1.name).to eq "web cam"
+    expect(item_2.name).to eq "violin"
   end
 
 end

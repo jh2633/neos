@@ -2,17 +2,12 @@ require './app/models/promotion'
 
 describe Promotion do
 
-  subject(:item_1) {described_class.new(5, "web cam")}
-  subject(:item_2) {described_class.new(10, "violin")}
+  subject(:twenty_percent_off) {described_class.new(20)}
 
-  it 'can be created with a price' do
-    expect(item_1.price).to eq 5
-    expect(item_2.price).to eq 10
+  it 'can store a discount' do
+    expect(twenty_percent_off.discount).to eq 20
   end
 
-  it 'can be created with a name' do
-    expect(item_1.name).to eq "web cam"
-    expect(item_1.name).to eq "web cam"
-  end
+
 
 end

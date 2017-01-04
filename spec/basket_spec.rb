@@ -3,11 +3,9 @@ require './app/models/basket'
 describe Basket do
 
   subject(:item_1) {described_class.new(5, "web cam")}
-  subject(:item_2) {described_class.new(10, "violin")}
 
-  it 'can be created with a price' do
-    expect(item_1.price).to eq 5
-    expect(item_2.price).to eq 10
+  it 'can calculate the of the basket items' do
+
   end
 
   it 'can be created with a name' do
