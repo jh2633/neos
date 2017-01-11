@@ -13,4 +13,8 @@ attr_reader :content
     @content.push(item)
   end
 
+  def remove(item)
+    @content.delete(item)
+  end
+
 end
